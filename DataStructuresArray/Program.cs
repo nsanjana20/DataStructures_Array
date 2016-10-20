@@ -37,6 +37,12 @@ namespace DataStructuresArray
             DuplicateElement d = new DuplicateElement();
             Console.WriteLine("The duplicate element is: "+d.FindDuplicate(dupArr));
             #endregion
+
+            #region Split array
+            int[] splitArr = { 2, 6, 10, 4, 29, 7 };
+            SplitArray s = new SplitArray();
+            Console.WriteLine("The sum of the n-1 numbers is found at index: "+s.Split(splitArr));
+            #endregion
         }
     }
 }
