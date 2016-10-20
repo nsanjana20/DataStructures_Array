@@ -31,6 +31,12 @@ namespace DataStructuresArray
             int element = se.Search(adjArr, search);
             Console.WriteLine("The search element " + search + " is found at index: " + element);
             #endregion
+
+            #region Duplicate Element
+            int[] dupArr = { 2, 4, 3, 2, 1 };
+            DuplicateElement d = new DuplicateElement();
+            Console.WriteLine("The duplicate element is: "+d.FindDuplicate(dupArr));
+            #endregion
         }
     }
 }
